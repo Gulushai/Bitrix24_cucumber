@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-22T23:45:40.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6153009494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create a task from Activity Stream",
+        "description": "",
+        "id": "login-using-marketing-credentials;create-a-task-from-activity-stream",
+        "after": [
+          {
+            "result": {
+              "duration": 860721067,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7943919360,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login as a \"marketing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing\"",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginMarketingStepDef.i_login_as_a(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login using Marketing credentials",
+    "description": "",
+    "id": "login-using-marketing-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/bitrix24/features/Login/LoginMarketing.feature",
+    "tags": []
+  }
+]
